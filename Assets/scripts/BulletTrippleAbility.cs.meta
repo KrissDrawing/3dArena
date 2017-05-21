@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37adb3acb18d95942b9457c9f6f6d32a
+timeCreated: 1494866171
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - aSprite: {instanceID: 0}
+  - aSound: {instanceID: 0}
+  - bullet: {fileID: 114000011206798644, guid: 80c3e0a5e89e8fb47a3e2f2d03ce9aab, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

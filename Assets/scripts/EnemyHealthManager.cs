@@ -1,0 +1,30 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class EnemyHealthManager : MonoBehaviour {
+
+    public int health;
+    private int currentHealth;
+    public HealthBarController healthBar;
+
+	// Use this for initialization
+	void Start () {
+        currentHealth = health;
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+        if(currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }	
+	}
+
+    public void HurtEnemy (int damage)
+    {
+        currentHealth -= damage;
+        healthBar.Damage(health, damage);
+
+    }
+}
